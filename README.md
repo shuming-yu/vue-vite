@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### First Install
+
+- framework : Vue
+- variant : Customize with create-vue
