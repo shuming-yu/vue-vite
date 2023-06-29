@@ -38,3 +38,4 @@ npm run lint
 
 - framework : Vue
 - variant : Customize with create-vue
+![setup](./public/step.PNG)
