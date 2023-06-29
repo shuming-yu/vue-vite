@@ -8,6 +8,9 @@
   import { inject } from 'vue';
   import $axios from 'axios';
 
+  console.log(import.meta.env.VITE_PATH);
+  console.log(import.meta.env.VITE_TEXT);
+
   $axios.get('https://randomuser.me/api/')
         .then(res=>{
           console.log(res.data);

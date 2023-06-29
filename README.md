@@ -59,3 +59,5 @@ npm run lint
 5. 獨立開啟 dist 資料夾 -> 以 Code 開啟 -> 右下角 Go Live
 6. 查看網址路徑自動新增 # -> 點選 About 頁面後重整頁面 -> OK
 ```
+
+- Env Variables and Modes : https://vitejs.dev/guide/env-and-mode.html#env-variables
