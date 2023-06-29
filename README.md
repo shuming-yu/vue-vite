@@ -45,3 +45,17 @@ npm run lint
 - vue-axios : https://www.npmjs.com/package/vue-axios
 
 - randomuser API : https://randomuser.me/
+
+### 參考
+
+- Hash Mode : https://router.vuejs.org/guide/essentials/history-mode.html
+
+```
+首次安裝, router 設定, 瀏覽器(Web Server)無法運行 :
+1. 首次安裝 -> npm run build -> 建立 dist 資料夾
+2. 獨立開啟 dist 資料夾 -> 以 Code 開啟 -> 右下角 Go Live
+3. 查看網址路徑未有 # -> 點選 About 頁面後重整頁面 -> Cannot GET /about
+4. 修改 router/index.js -> createWebHistory -> createWebHashHistory -> npm run build
+5. 獨立開啟 dist 資料夾 -> 以 Code 開啟 -> 右下角 Go Live
+6. 查看網址路徑自動新增 # -> 點選 About 頁面後重整頁面 -> OK
+```
