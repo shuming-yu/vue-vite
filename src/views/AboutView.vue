@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script setup>
+  import { inject } from 'vue';
+  import $axios from 'axios';
+
+  $axios.get('https://randomuser.me/api/')
+        .then(res=>{
+          console.log(res.data);
+        })
+
+</script>
+
 <style>
 @media (min-width: 1024px) {
   .about {

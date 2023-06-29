@@ -38,4 +38,10 @@ npm run lint
 
 - framework : Vue
 - variant : Customize with create-vue
-![setup](./public/step.PNG)
+![image](./public/step.PNG)
+
+### 安裝套件
+
+- vue-axios : https://www.npmjs.com/package/vue-axios
+
+- randomuser API : https://randomuser.me/
