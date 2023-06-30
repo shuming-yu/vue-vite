@@ -61,3 +61,19 @@ npm run lint
 ```
 
 - Env Variables and Modes : https://vitejs.dev/guide/env-and-mode.html#env-variables
+
+- 部屬 Vite 專案至 GitHub Pages
+- Vite 3 : https://v3.vitejs.dev/guide/static-deploy.html#github-pages
+- Vite 4 : https://vitejs.dev/guide/static-deploy.html#github-pages
+- [解决]git-ssh: connect to host github.com port 22: Connection timed out : https://www.jianshu.com/p/c3aac5024877
+- git 端口拒绝解决方案 : https://blog.csdn.net/s740556472/article/details/80318886
+
+```
+1. 根目錄新增 deploy.sh, 將 Vite 3 - #github-pages 代碼複製貼上
+2. 設定 部屬至 main:gh-pages
+3. 至 vite.config.js 新增 base: "/vue-vite/"  ( vue-vite - 專案名稱 )
+4. 修改完成後使用 Git Bash Here 下指令 : sh deploy.sh
+5. 執行 npm run build, 再次執行 sh deploy.sh
+6. GitHub vue-vite 查看 main 分支下是否新增 gh-pages
+7. 成功後至 Setting -> Pages 設定 Branch 靜態網站
+```

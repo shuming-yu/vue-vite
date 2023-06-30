@@ -27,10 +27,10 @@ git commit -m 'deploy'
 
 # 部屬至 主線main
 # if you are deploying to https://shuming-yu.github.io
-git push -f git@github.com:shuming-yu/shuming-yu.github.io.git main
+# git push -f git@github.com:shuming-yu/shuming-yu.github.io.git main
 
 # 部屬至 main:gh-pages
 # if you are deploying to https://shuming-yu.github.io/vue-vite
-# git push -f git@github.com:shuming-yu/vue-vite.git main:gh-pages
+git push -f git@github.com:shuming-yu/vue-vite.git main:gh-pages
 
 cd -
