@@ -1,0 +1,1 @@
+import{$ as o,o as t,c as s,a}from"./index-6646fb06.js";const n={class:"about"},_=a("h1",null,"This is an about page",-1),c=[_],u={__name:"AboutView",setup(l){return console.log("https://randomuser.me/api/"),console.log("這是正式的環境"),o.get("https://randomuser.me/api/").then(e=>{console.log(e.data)}),(e,i)=>(t(),s("div",n,c))}};export{u as default};
